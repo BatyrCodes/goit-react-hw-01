@@ -1,0 +1,22 @@
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.list {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    gap: 30px;
+
+}
+
+.item {
+    width: 200px;
+}

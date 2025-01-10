@@ -1,0 +1,77 @@
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.profile {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    border: 4px solid gray;
+    border-radius: 10px;
+    padding: 10px 0px 0px 0px;
+}
+
+.avatar {
+    max-width: 200px;
+    border-radius: 100%;
+    background-color: black;
+}
+
+.userName {
+    font-size: 26px;
+    font-weight: 700;
+    color: black;
+}
+
+.mail {
+    color: rgb(173, 163, 163);
+    font-size: 20px;
+}
+
+.location {
+    color: rgb(173, 163, 163);
+    font-size: 20px;
+}
+
+.userInfo__list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 3px solid gray;
+    z-index: -1;
+}
+
+.userInfo__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding: 10px 0px;
+    background-color: gainsboro;
+}
+
+.extraLineGray {
+    border-right: 3px solid gray;
+    border-left: 3px solid gray;
+    height: 100%;
+}
+
+
+.userInfo__label {
+    font-size: 21px;
+    color: black;
+}
+
+.userInfo__value {
+    font-size: 21px;
+    font-weight: 700;
+}
