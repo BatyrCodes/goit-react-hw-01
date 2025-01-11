@@ -4,8 +4,10 @@ import "./App.css";
 
 import userData from "../JSON/userData.json";
 import friends from "../JSON/friends.json";
+import transactions from "../JSON/transactions.json";
 
 import FriendList from "../FriendList/FriendList";
+import TransactionHistory from "../TransactionHistory/TransactionHistory";
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         stats={userData.stats}
       />
       <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 }
